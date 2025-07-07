@@ -4,5 +4,39 @@
 }
 body {
     margin:0;
-    font-family: Norse-Bold
+    font-family: Norse-Bold;
+    display: flex;
+}
+
+#image {
+    position: relative;
+    height: 100vh;
+    width: 30vw;
+}
+
+#background {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.logo-body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: max-content;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    top: 4rem;
+    font-size: 12rem;
+}
+
+.logo-body p{
+    margin:0;
+}
+#logo {
+    height: 16rem;
+    margin: 2rem;
 }
