@@ -89,6 +89,11 @@ body {
     font-size:16px;
 }
 
+.buttons button:hover{
+    cursor:pointer;
+    background-color:#475837;
+}
+
 .buttons a{
     color: #596D48;
     font-weight: bold;
